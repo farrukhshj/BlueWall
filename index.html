@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Jabil Dashboard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+         body{
+                background-color: gainsboro;
+         }
+         #logo{
+              margin-left: 36%;
+              margin-top: 10%;
+              width:300px;
+              height:128px;
+         }
+         #text{
+              font-size: 64px;
+              font:bold;
+              color: midnightblue;
+              margin-left: 33%;
+         }
+         #next{
+              width:60px;
+              height:60px;
+              margin-left:90%;
+              margin-top: 5%;
+              cursor:pointer;
+         }
+         
+        </style>
+        <script>
+            function next()
+            {
+               window.location="home.html";
+            }
+        </script>
+    </head>
+    <body>
+        <img id="logo" src="images/logo.png" alt="Logo">
+        <p id="text">DASHBOARD</p>
+        <input type="image" id= "next" src="images/arrow.png" alt="next" onclick="next()"/>
+        
+    </body>
+</html>
